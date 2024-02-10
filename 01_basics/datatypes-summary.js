@@ -22,4 +22,31 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof heros);
+//console.log(typeof heros);
+
+
+
+//********************STACK HEAP***************************//
+
+
+let myYoutubename = "romitmukherjeedotcom "
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "7985223007@paytm"
+}
+
+let userTwo = userOne
+
+userTwo.email = "romit@gmaikl.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+ 
